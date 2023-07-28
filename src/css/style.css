@@ -1,0 +1,92 @@
+body{
+  background-image: url(../images/bg-repeat.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+.texto{
+  color: #fff;
+  padding: 6rem;
+}
+.texto .titulo{
+  font-size: 4rem;
+  font-weight: 900;
+  margin-bottom: 2.2rem;
+}
+.texto .descricao{
+  font-size: 3rem;
+  font-weight: 400;
+  width: 60rem;
+}
+.conteudo{
+  width: 68rem;
+  height: 75.6rem;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 4rem;
+  position: relative;
+}
+.conteudo .campos{
+  margin-bottom: 3rem;
+}
+.conteudo .lista li:last-child{
+  margin-bottom: 1.6rem;
+}
+.conteudo .input{
+  width: 100%;
+  height: 7rem;
+  font-size: 3rem;
+  font-weight: 700;
+  border-radius: 10px;
+  padding: 2rem;
+  border: 2px solid #000;
+}
+.conteudo .input::placeholder{
+  color:#A8A8A8;
+}
+.conteudo .input.grande{
+  display: list-item;
+  vertical-align: top;
+  resize: none;
+  height: 20rem;
+}
+
+.conteudo .obrigatorio{
+  font-weight: 500;
+  font-size: 3rem;
+  margin-bottom: 2.1rem;
+}
+.conteudo .btn{
+  background-color: #3CCC87;
+  height: 8.2rem;
+  border-radius: 10px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.conteudo .campos .notificacao{
+  position: absolute;
+  font-size: 1.8rem;
+  font-weight: 400;
+  color: red;
+}
+
+.conteudo .input.valido{
+  border: 2px solid #00c22b;
+}
+.conteudo .input.invalido{
+  border: 2px solid red;
+}
+
+
+

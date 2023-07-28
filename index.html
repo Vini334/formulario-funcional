@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/css/style.css">
+  <link rel="stylesheet" href="./src/css/reset.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <main>
+    <div class="texto">
+      <h1 class="titulo">FICOU COM DÚVIDA? <br> NOS MANDE UMA MENSAGEM!</h1>
+      <p class="descricao">
+        caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de 24h.
+      </p>
+    </div>
+    <div class="conteudo">
+      <ul class="lista">
+        <li class="campos">
+          <input class="input desativado" type="text" placeholder="Nome completo *">
+          <p class="notificacao"></p>
+        </li>
+
+        <li class="campos">
+          <input class="input desativado"  type="text" placeholder="Email *">
+          <p class="notificacao"></p>
+        </li>
+
+        <li class="campos">
+          <input class="input desativado"  type="text" placeholder="Telefone *">
+          <p class="notificacao"></p>
+        </li>
+
+        <li class="campos">
+          <textarea
+          placeholder="Mensagem *"
+          class="input grande desativado"
+          cols="30"
+          rows="10"
+        ></textarea>
+        <p class="notificacao"></p>
+      </ul>
+
+      <p id="aviso" class="obrigatorio">*campos obrigatórios</p>
+
+      <button id="btn-enviar" class="btn" type="submit">Enviar</button>
+    </div>
+  </main>
+  <script src="./src/js/index.js"></script>
+</body>
+
+</html>
